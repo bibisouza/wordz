@@ -1,82 +1,30 @@
 const wordsList = [
     {
-        word: '',
-        hint: ''
+        word: 'voltron',
+        hint: 'Participação mais querida do MV de Human Sadness.'
     },
     {
-        word: '',
-        hint: ''
+        word: 'someday',
+        hint: 'Grande sucesso do Is This It.'
     },
     {
-        word: '',
-        hint: ''
+        word: 'tyranny',
+        hint: 'Álbum debut da banda esquisita do Julian.'
     },
     {
-        word: '',
-        hint: ''
+        word: 'flexorcist',
+        hint: 'Música com um MV lançada oficialmente no Like All Before You.'
     },
     {
-        word: '',
-        hint: ''
+        word: 'mean',
+        hint: '... Girls, de Charli xcx, que conta com participação de Julian no remix.'
     },
     {
-        word: '',
-        hint: ''
+        word: 'reptilia',
+        hint: 'Música que inspirou o nome desse jogo.'
     },
     {
-        word: '',
-        hint: ''
-    },
-    {
-        word: '',
-        hint: ''
-    },
-    {
-        word: '',
-        hint: ''
-    },
-    {
-        word: '',
-        hint: ''
-    },
-    {
-        word: '',
-        hint: ''
-    },
-    {
-        word: '',
-        hint: ''
-    },
-    {
-        word: '',
-        hint: ''
-    },
-    {
-        word: '',
-        hint: ''
-    },
-    {
-        word: '',
-        hint: ''
-    },
-    {
-        word: '',
-        hint: ''
-    },
-    {
-        word: '',
-        hint: ''
-    },
-    {
-        word: '',
-        hint: ''
-    },
-    {
-        word: '',
-        hint: ''
-    },
-    {
-        word: '',
-        hint: ''
+        word: 'qyurryus',
+        hint: 'Hot track, hot dress...'
     }
 ]
