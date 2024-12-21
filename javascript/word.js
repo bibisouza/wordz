@@ -1,4 +1,4 @@
-const wordsList = [
+const wordList = [
     {
         word: 'voltron',
         hint: 'Participação mais querida do MV de Human Sadness.'
