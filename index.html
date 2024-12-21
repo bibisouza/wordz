@@ -2,32 +2,33 @@
 <html lang="pt-br" dir="ltr">
 <head>
     <meta charset="UTF-8">
-    <title>Guess a Word Game</title>
-    <link rel="stylesheet" href="style.css">
+    <title>WORDZ</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="dino-image"></div>
+    <div class="cd-image"></div>
+    <div class="keyb-image"></div>
+    <div class="sol-image"></div>
+    <div class="box-image"></div>
+    <div class="tv-image"></div>
     <div class="wrapper">
-        <h1>Guess the Word</h1>
+        <h1>WORDZ</h1>
         <div class="content">
-            <div class="inpts">
-                <input type="text" disabled>
-                <input type="text" disabled>
-                <input type="text" disabled>
-                <input type="text" disabled>
-                <input type="text" disabled>
-                <input type="text" disabled>
-            </div>
+            <input type="text" class="typing-input" maxlength="1">
+            <div class="inputs"></div>
             <div class="details">
-                <p class="hint">Hint: <span>Hint will be shown here</span></p>
-                <p class="guess-left">Remaining Guesses: <span>10</span></p>
-                <p class="wrong-letter">Wrong letters: <span>a, b, c, d</span></p>
+                <p class="hint">Dica: <span></span></p>
+                <p class="guess-left">Tentativas restantes: <span></span></p>
+                <p class="wrong-letter">Letras erradas: <span></span></p>
             </div>
-            <button class="reset-btn">Reset Game</button>
+            <button class="reset-btn">Reiniciar</button>
         </div>
     </div>
 
-    <script src="javascript/scrpt.js"></script>
+    <script src="javascript/word.js"></script>
+    <script src="javascript/script.js"></script>
     
 </body>
 </html>
