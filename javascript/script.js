@@ -51,7 +51,7 @@ function initGame(e) {
 
     setTimeout(() => {
         if(corrects.length === word.length) {
-            alert(`Congrats! ${word.toUpperCase()}`);
+            alert(`Acertou! A palavra é ${word.toUpperCase()}`);
             randomWord();
         } else if(maxGuesses < 1) {
             alert("Game over!");

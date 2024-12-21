@@ -20,8 +20,8 @@ const wordList = [
         hint: '... Girls, de Charli xcx, que conta com participação de Julian no remix.'
     },
     {
-        word: 'reptilia',
-        hint: 'Música que inspirou o nome desse jogo.'
+        word: 'wink',
+        hint: 'Faixa do Virtue performada ao vivo no The Noite.'
     },
     {
         word: 'qyurryus',
