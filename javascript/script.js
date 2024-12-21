@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", () => {
+
 const inputs = document.querySelector(".inputs"),
 resetBtn = document.querySelector(".reset-btn"),
 hint = document.querySelector(".hint span"),
@@ -15,13 +17,14 @@ function randomWord() {
 
     hint.innerText = ranObj.hint;
     guessLeft.innerText = maxGuesses;
-    wrongLetter.innerText = incorrects;
+    wrongLetter.innerText = incorrects.join(", ");
 
     let html = "";
     for (let i = 0; i < word.length; i++) {
         html += `<input type="text" disabled>`;
     }
     inputs.innerHTML = html;
+    typingInput.focus();
 }
 
 randomWord();
@@ -63,3 +66,5 @@ resetBtn.addEventListener("click", randomWord);
 typingInput.addEventListener("input", initGame);
 inputs.addEventListener("click", () => typingInput.focus());
 document.addEventListener("keydown", () => typingInput.focus());
+
+});

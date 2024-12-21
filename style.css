@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
   margin: 0;
@@ -12,7 +12,17 @@ body{
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  background: #1BB295;
+  background: #0B17B4;
+}
+.background-image{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 25px;
+    height: auto;
+    background-image: url('/dinocd.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .wrapper{
   width: 430px;
@@ -21,8 +31,9 @@ body{
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 .wrapper h1{
-  font-size: 25px;
-  font-weight: 500;
+  font-size: 50px;
+  font-family: 'Handjet', san-serif;
+  font-weight: 700;
   padding: 20px 25px;
   border-bottom: 1px solid #ccc;
 }
@@ -73,12 +84,13 @@ body{
   padding: 15px 0;
   font-size: 17px;
   border-radius: 5px;
-  background: #1BB295;
+  background: #DD0907;
   transition: all 0.3s ease;
 }
 .content .reset-btn:hover{
   background: #18a589;
 }
+
 
 @media screen and (max-width: 460px) {
   .wrapper {
