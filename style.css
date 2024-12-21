@@ -17,7 +17,7 @@ body{
 .dino-image{
     position: absolute;
     top: 250px;
-    left: 150px;
+    left: 10px;
     width: 300px;
     height: 300px;
     background-image: url('assets/dinocd.gif');
@@ -38,8 +38,8 @@ body{
 }
 .keyb-image{
     position: absolute;
-    top: 60px;
-    left: 870px;
+    top: 10px;
+    left: 850px;
     width: 400px;
     height: 200px;
     background-image: url('assets/music9.gif');
@@ -50,7 +50,7 @@ body{
 .sol-image{
     position: absolute;
     top: 130px;
-    left: 870px;
+    left: 950px;
     width: 400px;
     height: 200px;
     background-image: url('assets/music-mov.gif');
@@ -71,23 +71,24 @@ body{
 }
 .tv-image{
     position: absolute;
-    top: 250px;
+    top: 30px;
     left: 10px;
-    width: 410px;
-    height: 300px;
+    width: 450px;
+    height: 350px;
     background-image: url('assets/music-item13.gif');
     background-repeat: no-repeat;
     background-size: contain;
     background-color: transparent;
 }
 .wrapper{
-  width: 430px;
+  width: auto;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 .wrapper h1{
-  font-size: 50px;
+  font-size: 60px;
+  text-align: center;
   font-family: 'Handjet', san-serif;
   font-weight: 700;
   padding: 20px 25px;
@@ -144,7 +145,7 @@ body{
   transition: all 0.3s ease;
 }
 .content .reset-btn:hover{
-  background: #18a589;
+  background: #000;
 }
 
 
